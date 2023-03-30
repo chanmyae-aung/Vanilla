@@ -51,5 +51,6 @@ restartBtn.addEventListener("click", () => {
 
 stopBtn.addEventListener("click", () => {
     clearInterval(intervalId)
+    hour =0; minute=0; second=0, millisecond=0;
     display.textContent = "00:00:00:00";
 })
